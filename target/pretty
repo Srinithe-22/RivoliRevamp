@@ -1,0 +1,23 @@
+
+@Regression @HomePage
+Scenario: Verify the Home Page                                              # src/main/resources/features/smokesuit-USDesktop.feature:5
+  Given I landing to the home page and see the Rivoli Icon                  # stepDefinitions.HomePage_StepDefinitions.iLandingToTheHomePageAndSeeTheRivoliIcon()
+  And The user sees the header with customer Service and Language selection # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheHeaderWithCustomerServiceAndLanguageSelection()
+      java.lang.RuntimeException: FAILED
+      	at utils.Reporter.reportStep(Reporter.java:72)
+      	at utils.Reporter.reportStep(Reporter.java:81)
+      	at wdMethods.SeMethods.verifyDisplayed(SeMethods.java:624)
+      	at pages.HomePage.headerSectionHomePage(HomePage.java:261)
+      	at stepDefinitions.HomePage_StepDefinitions.theUserSeesTheHeaderWithCustomerServiceAndLanguageSelection(HomePage_StepDefinitions.java:27)
+      	at ✽.The user sees the header with customer Service and Language selection(file:///C:/Users/Srinithe/Desktop/RivoliRevamp/RevampRivoli/RevampRivoli/src/main/resources/features/smokesuit-USDesktop.feature:7)
+  Then The user sees the main menus                                         # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheMainMenus()
+  And the user able to see the search, Profile, Wishlist and Cart icon      # stepDefinitions.HomePage_StepDefinitions.theUserAbleToSeeTheSearchProfileWishlistAndCartIcon()
+  Then The user sees the promotion glide banner                             # stepDefinitions.HomePage_StepDefinitions.theUserSeesThePromotionGlideBanner()
+  Then The user sees the About us in footer                                 # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheAboutUsInFooter()
+  And The user sees the Shop in footer                                      # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheShopInFooter()
+  Then The user sees the Support in footer                                  # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheSupportInFooter()
+  And The user sees the Sign up for newsletters in footer                   # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheSignUpForNewslettersInFooter()
+  Then The user sees the follow us in footer                                # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheFollowUsInFooter()
+  And The user sees the country in footer                                   # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheCountryInFooter()
+  Then The user sees the privacy policy in footer                           # stepDefinitions.HomePage_StepDefinitions.theUserSeesThePrivacyPolicyInFooter()
+  And The user sees the move to top icon                                    # stepDefinitions.HomePage_StepDefinitions.theUserSeesTheMoveToTopIcon()
