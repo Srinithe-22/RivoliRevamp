@@ -1,0 +1,84 @@
+21:38:37.413 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+21:38:37.417 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.0.0
+21:38:37.716 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:38:37.718 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Edmund Aunstin\IdeaProjects\NuLogicFramework\browserstack.yml
+21:38:37.801 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:38:38.878 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:38:42.028 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 4.2.3 which is lower than the minimum version we currently support (7.3.0).
+21:38:42.877 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:38:51.747 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:38:59.999 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:39:55.139 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/4b7862441ba943c0151fc982e8d368ac031efc78
+21:39:55.140 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:48:50.085 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+21:48:50.093 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.0.0
+21:48:50.367 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:48:50.369 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Edmund Aunstin\IdeaProjects\NuLogicFramework\browserstack.yml
+21:48:50.446 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:48:51.424 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:48:54.915 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 4.2.3 which is lower than the minimum version we currently support (7.3.0).
+21:48:55.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:48:59.311 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:49:04.942 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:50:02.980 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/ca41a5c112983d3f7d1339e3b99acc130afe1a1b
+21:50:02.980 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:55:29.315 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+21:55:29.319 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.0.0
+21:55:29.614 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:55:29.616 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Edmund Aunstin\IdeaProjects\NuLogicFramework\browserstack.yml
+21:55:29.702 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:55:30.807 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:55:34.020 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 4.2.3 which is lower than the minimum version we currently support (7.3.0).
+21:55:34.682 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:55:38.539 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:55:44.730 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:57:10.103 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/64735dbf08b0910cdb5251d7e22bc7e790c20a3f
+21:57:10.103 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:10:06.338 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+22:10:06.343 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.0.0
+22:10:06.602 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:10:06.605 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Edmund Aunstin\IdeaProjects\NuLogicFramework\browserstack.yml
+22:10:06.660 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.lang.NullPointerException: Cannot invoke "java.util.Map.size()" because "m" is null.
+22:10:06.675 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:10:06.680 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+22:10:06.951 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+22:11:08.521 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+22:11:08.528 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.0.0
+22:11:08.806 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:11:08.807 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Edmund Aunstin\IdeaProjects\NuLogicFramework\browserstack.yml
+22:11:08.871 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.lang.NullPointerException: Cannot invoke "java.util.Map.size()" because "m" is null.
+22:11:08.879 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:11:08.884 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+22:11:09.170 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+22:11:53.959 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+22:11:53.963 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.0.0
+22:11:54.233 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:11:54.235 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Edmund Aunstin\IdeaProjects\NuLogicFramework\browserstack.yml
+22:11:54.304 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.lang.NullPointerException: Cannot invoke "java.util.Map.size()" because "m" is null.
+22:11:54.311 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:11:54.316 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+22:11:54.561 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
