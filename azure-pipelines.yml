@@ -1,0 +1,42 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- main
+
+pool: 
+  vmImage: 'ubuntu-latest'
+
+steps:
+#- task: BrowserStackConfig@0
+#  inputs:
+#    BrowserStackServiceEndPoint: 'browserstack_connection'
+- task: TBMain@0
+  inputs:
+    connectedServiceName: 'testingbot'
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'pom.xml'
+    publishJUnitResults: true
+    testResultsFiles: '**/junitreports/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.8'
+    jdkArchitectureOption : 'x64'
+    mavenVersionOption: 'Default'
+    mavenOptions: '-Xmx3072m'
+    options: '-DmyVariable=$(myVariable)'
+  env:
+    MAVEN_OPTS: '-DmyVariable=$(myVariable)'
+    
+#schedules:
+#- cron: '0 0 * * *'
+#  displayName: Daily midnight build
+#  always: true
+#  branches:
+#    include:
+#    - main
+#- task: BrowserStackResults@1
+#  inputs:
+#    browserstackProduct: 'automate'
